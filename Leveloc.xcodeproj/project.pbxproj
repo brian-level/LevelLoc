@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B01D5A932D6369D10032E616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B01D5A742D6369CC0032E616 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B01D5A7B2D6369CC0032E616;
+			remoteInfo = Leveloc;
+		};
+		B01D5A9D2D6369D10032E616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B01D5A742D6369CC0032E616 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B01D5A7B2D6369CC0032E616;
+			remoteInfo = Leveloc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B01D5A7C2D6369CC0032E616 /* Leveloc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leveloc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01D5A922D6369D10032E616 /* LevelocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LevelocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01D5A9C2D6369D10032E616 /* LevelocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LevelocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B01D5AA42D6369D10032E616 /* Exceptions for "Leveloc" folder in "Leveloc" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B01D5A7B2D6369CC0032E616 /* Leveloc */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B01D5A7E2D6369CC0032E616 /* Leveloc */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B01D5AA42D6369D10032E616 /* Exceptions for "Leveloc" folder in "Leveloc" target */,
+			);
+			path = Leveloc;
+			sourceTree = "<group>";
+		};
+		B01D5A952D6369D10032E616 /* LevelocTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LevelocTests;
+			sourceTree = "<group>";
+		};
+		B01D5A9F2D6369D10032E616 /* LevelocUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LevelocUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B01D5A792D6369CC0032E616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01D5A8F2D6369D10032E616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01D5A992D6369D10032E616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B01D5A732D6369CC0032E616 = {
+			isa = PBXGroup;
+			children = (
+				B01D5A7E2D6369CC0032E616 /* Leveloc */,
+				B01D5A952D6369D10032E616 /* LevelocTests */,
+				B01D5A9F2D6369D10032E616 /* LevelocUITests */,
+				B01D5A7D2D6369CC0032E616 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B01D5A7D2D6369CC0032E616 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B01D5A7C2D6369CC0032E616 /* Leveloc.app */,
+				B01D5A922D6369D10032E616 /* LevelocTests.xctest */,
+				B01D5A9C2D6369D10032E616 /* LevelocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B01D5A7B2D6369CC0032E616 /* Leveloc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B01D5AA52D6369D10032E616 /* Build configuration list for PBXNativeTarget "Leveloc" */;
+			buildPhases = (
+				B01D5A782D6369CC0032E616 /* Sources */,
+				B01D5A792D6369CC0032E616 /* Frameworks */,
+				B01D5A7A2D6369CC0032E616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B01D5A7E2D6369CC0032E616 /* Leveloc */,
+			);
+			name = Leveloc;
+			packageProductDependencies = (
+			);
+			productName = Leveloc;
+			productReference = B01D5A7C2D6369CC0032E616 /* Leveloc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B01D5A912D6369D10032E616 /* LevelocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B01D5AAA2D6369D10032E616 /* Build configuration list for PBXNativeTarget "LevelocTests" */;
+			buildPhases = (
+				B01D5A8E2D6369D10032E616 /* Sources */,
+				B01D5A8F2D6369D10032E616 /* Frameworks */,
+				B01D5A902D6369D10032E616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B01D5A942D6369D10032E616 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B01D5A952D6369D10032E616 /* LevelocTests */,
+			);
+			name = LevelocTests;
+			packageProductDependencies = (
+			);
+			productName = LevelocTests;
+			productReference = B01D5A922D6369D10032E616 /* LevelocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B01D5A9B2D6369D10032E616 /* LevelocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B01D5AAD2D6369D10032E616 /* Build configuration list for PBXNativeTarget "LevelocUITests" */;
+			buildPhases = (
+				B01D5A982D6369D10032E616 /* Sources */,
+				B01D5A992D6369D10032E616 /* Frameworks */,
+				B01D5A9A2D6369D10032E616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B01D5A9E2D6369D10032E616 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B01D5A9F2D6369D10032E616 /* LevelocUITests */,
+			);
+			name = LevelocUITests;
+			packageProductDependencies = (
+			);
+			productName = LevelocUITests;
+			productReference = B01D5A9C2D6369D10032E616 /* LevelocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B01D5A742D6369CC0032E616 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					B01D5A7B2D6369CC0032E616 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					B01D5A912D6369D10032E616 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B01D5A7B2D6369CC0032E616;
+					};
+					B01D5A9B2D6369D10032E616 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B01D5A7B2D6369CC0032E616;
+					};
+				};
+			};
+			buildConfigurationList = B01D5A772D6369CC0032E616 /* Build configuration list for PBXProject "Leveloc" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B01D5A732D6369CC0032E616;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B01D5A7D2D6369CC0032E616 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B01D5A7B2D6369CC0032E616 /* Leveloc */,
+				B01D5A912D6369D10032E616 /* LevelocTests */,
+				B01D5A9B2D6369D10032E616 /* LevelocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B01D5A7A2D6369CC0032E616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01D5A902D6369D10032E616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01D5A9A2D6369D10032E616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B01D5A782D6369CC0032E616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01D5A8E2D6369D10032E616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01D5A982D6369D10032E616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B01D5A942D6369D10032E616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B01D5A7B2D6369CC0032E616 /* Leveloc */;
+			targetProxy = B01D5A932D6369D10032E616 /* PBXContainerItemProxy */;
+		};
+		B01D5A9E2D6369D10032E616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B01D5A7B2D6369CC0032E616 /* Leveloc */;
+			targetProxy = B01D5A9D2D6369D10032E616 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B01D5AA62D6369D10032E616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Leveloc/Leveloc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9Z8AH24CY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Leveloc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Leveloc;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "find distance and direction to Level Locks";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Find distance and direction to Level Locks";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Uses camera for more precise location";
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "Find distance and direction to Level Locks";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bdodge.Leveloc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B01D5AA72D6369D10032E616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Leveloc/Leveloc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9Z8AH24CY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Leveloc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Leveloc;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "find distance and direction to Level Locks";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Find distance and direction to Level Locks";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Uses camera for more precise location";
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "Find distance and direction to Level Locks";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bdodge.Leveloc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B01D5AA82D6369D10032E616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B01D5AA92D6369D10032E616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B01D5AAB2D6369D10032E616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9Z8AH24CY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bdodge.LevelocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leveloc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Leveloc";
+			};
+			name = Debug;
+		};
+		B01D5AAC2D6369D10032E616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9Z8AH24CY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bdodge.LevelocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leveloc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Leveloc";
+			};
+			name = Release;
+		};
+		B01D5AAE2D6369D10032E616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9Z8AH24CY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bdodge.LevelocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Leveloc;
+			};
+			name = Debug;
+		};
+		B01D5AAF2D6369D10032E616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9Z8AH24CY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bdodge.LevelocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Leveloc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B01D5A772D6369CC0032E616 /* Build configuration list for PBXProject "Leveloc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01D5AA82D6369D10032E616 /* Debug */,
+				B01D5AA92D6369D10032E616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B01D5AA52D6369D10032E616 /* Build configuration list for PBXNativeTarget "Leveloc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01D5AA62D6369D10032E616 /* Debug */,
+				B01D5AA72D6369D10032E616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B01D5AAA2D6369D10032E616 /* Build configuration list for PBXNativeTarget "LevelocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01D5AAB2D6369D10032E616 /* Debug */,
+				B01D5AAC2D6369D10032E616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B01D5AAD2D6369D10032E616 /* Build configuration list for PBXNativeTarget "LevelocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01D5AAE2D6369D10032E616 /* Debug */,
+				B01D5AAF2D6369D10032E616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B01D5A742D6369CC0032E616 /* Project object */;
+}
