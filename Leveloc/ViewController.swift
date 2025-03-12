@@ -73,6 +73,9 @@ class ViewController:
     // MARK: Nearby Interaction
     var niSession = NISession()
     var configuration: NINearbyAccessoryConfiguration?
+    
+    var accessoryConnected = false
+    var connectedAccessoryName = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -217,16 +220,21 @@ class ViewController:
     }
     
     func accessoryConnected(name: String) {
-        //accessoryConnected = true
-        //connectedAccessoryName = name
-        print("Requesting configuration data from accessory \(name)")
+        accessoryConnected = true
+        connectedAccessoryName = name
+    }
+    
+    func accessoryReady() {
+        print("Requesting configuration data from accessory \(connectedAccessoryName)")
         let msg = Data([MessageId.initialize.rawValue])
         sendDataToAccessory(msg)
     }
     
     func accessoryDisconnected() {
-        //accessoryConnected = false
-        //connectedAccessoryName = nil
+        if accessoryConnected {
+        }
+        accessoryConnected = false
+        connectedAccessoryName = ""
         print("Accessory disconnected")
     }
     
@@ -243,10 +251,11 @@ class ViewController:
             print("Failed to create NINearbyAccessoryConfiguration. Error: \(error)")
             return
         }
-        
+
         if hasAngles {
             configuration?.isCameraAssistanceEnabled = true
         }
+                
         // Cache the token to correlate updates with this accessory.
         //cacheToken(configuration!.accessoryDiscoveryToken, accessoryName: name)
         niSession.run(configuration!)
@@ -397,7 +406,7 @@ class ViewController:
         
         if gotRx && gotTx {
             DispatchQueue.main.async { () -> Void in
-                self.accessoryConnected(name: "crap")
+                self.accessoryReady()
             }
         }
     }
